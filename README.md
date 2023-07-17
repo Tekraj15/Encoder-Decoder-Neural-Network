@@ -4,4 +4,4 @@
 Projects Covered :
 
 1. Machine Translation
-2. Text Summarizatoin
+2. Text Summarization
