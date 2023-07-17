@@ -3,4 +3,5 @@
 
 Projects Covered :
 
-1. Machine Translatrion
+1. Machine Translation
+2. Text Summarizatoin
