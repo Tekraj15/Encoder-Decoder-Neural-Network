@@ -1,4 +1,4 @@
-# Encoder-Decoder_neural_nets
+# Encoder-Decoder Neural_nets
 
 
 Projects Covered :
