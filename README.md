@@ -1,6 +1,20 @@
 # Encoder-Decoder Neural_nets
 
-For your understanding, I'll quickly give the connection between Sequence-to-Sequence models and Encoder-Decoder architecture:
+For your understanding, I'll quickly give the connection of Encoder-Decoder Architecture with RNN and Sequence-to-Sequence models:
+
+# Connection between RNN and Encoder-Decoder:
+
+Sequential Processing: Both the encoder and decoder in the Encoder-Decoder architecture are typically implemented using RNNs (or it's variants like LSTM or GRU). This is because RNNs are inherently designed to handle sequences, making them a natural choice for this architecture.
+
+State Propagation: The encoder's final hidden state (or context vector) is used to initialize the decoder's hidden state. This is how information from the input sequence is passed to the decoder to influence the generation of the output sequence. This state propagation is a direct application of the RNN's ability to maintain and transmit state information across time steps.
+
+Temporal Dependencies: The Encoder-Decoder model's ability to handle temporal dependencies in sequences (e.g., the order of words in a sentence) comes directly from the RNN's design. The RNN's hidden state acts as a memory, capturing information from previous time steps to influence future ones.
+
+Training: Both the encoder and decoder are trained jointly using backpropagation through time (BPTT), a variant of the standard backpropagation algorithm tailored for RNNs. The goal is to minimize the difference between the decoder's outputs and the actual target sequence.
+
+
+
+# Connewction Between Sequence-to-Sequence Model and Encoder-Decoder Model :
 
 Sequence-to-sequence models and encoder-decoder architectures are closely related concepts, and often the terms are used interchangeably to describe the same idea. Let's delve into the connection between these two concepts:
 
