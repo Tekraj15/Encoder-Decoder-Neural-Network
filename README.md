@@ -39,14 +39,12 @@ In summary, sequence-to-sequence models encompass a broader concept of handling 
 
 
 
-kfhelrhglerhnvlkre
-
-
-
 Projects to be Covered :
 
 1. Machine Translation
 2. Text Summarization
 3. Chatbot Development
 
+
+# Project 1: English to German and German to English Language Translation
 
